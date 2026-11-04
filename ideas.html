@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Ideas | WAVE Guyana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="particles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <a href="discover.html" class="logo">WAVE</a>
+
+        <div class="nav-links">
+            <a href="discover.html">DISCOVER</a>
+            <a href="events.html">EVENTS</a>
+           <a href="ideas.html">PARTY IDEAS</a>
+        </div>
+
+        <div class="nav-actions">
+            <a href="admin.html" class="admin-nav-link">ADMIN</a>
+            <a href="notifications.html" class="notification-button">🔔</a>
+            <button class="login-button">LOG IN</button>
+        </div>
+    </nav>
+
+    <!-- PARTY IDEAS SECTION -->
+    <section class="ideas-page">
+
+        <h1>YOUR PARTY. YOUR IDEAS.</h1>
+
+        <p>
+            Have an idea for an unforgettable party? Share your suggestions
+            with WAVE and help us bring your dream event to life!
+        </p>
+
+        <!-- SUGGESTION FORM -->
+        <div class="idea-form">
+
+            <form>
+
+                <label for="partyName">
+                    What should we call this party?
+                </label>
+
+                <input
+                    type="text"
+                    id="partyName"
+                    name="partyName"
+                    placeholder="e.g. Neon Nights"
+                    required
+                >
+
+                <label for="partyTheme">Choose a party theme:</label>
+
+                <select id="partyTheme" name="partyTheme" required>
+                    <option value="">Select a theme</option>
+                    <option value="All White">All White</option>
+                    <option value="Pool Party">Pool Party</option>
+                    <option value="Glow Party">Glow Party</option>
+                    <option value="Caribbean">Caribbean</option>
+                    <option value="Costume Party">Costume Party</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="partyLocation">
+                    Where would you like the party?
+                </label>
+
+                <select id="partyLocation" name="partyLocation" required>
+                    <option value="">Choose a location</option>
+                    <option value="Georgetown">Georgetown</option>
+                    <option value="East Coast Demerara">East Coast Demerara</option>
+                    <option value="East Bank Demerara">East Bank Demerara</option>
+                    <option value="West Coast Demerara">West Coast Demerara</option>
+                    <option value="Linden">Linden</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="partyDescription">
+                    Tell us about your party idea:
+                </label>
+
+                <textarea
+                    id="partyDescription"
+                    name="partyDescription"
+                    rows="5"
+                    placeholder="Describe your dream party..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="idea-submit">
+                    SUBMIT YOUR IDEA
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- POPULAR PARTY IDEAS -->
+        <section class="popular-ideas">
+
+            <h2>POPULAR PARTY IDEAS</h2>
+
+            <p>
+                Vote for the parties you'd love to see WAVE bring to life!
+            </p>
+
+            <!-- FIRST PARTY IDEA CARD -->
+            <div class="idea-card">
+
+                <h3>NEON NIGHTS</h3>
+
+                <p>
+                    A night filled with neon lights, DJs, dancing
+                    and glowing decorations.
+                </p>
+
+                <button type="button">
+                    VOTE FOR THIS IDEA
+                </button>
+
+            </div>
+
+        </section>
+
+    </section>
+
+</body>
+</html>
